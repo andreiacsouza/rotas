@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app.routing.module';  
 // import { CursosModule } from './cursos/cursos.module';
 // import { AlunosModule } from './alunos/alunos.module';
+import { AuthService } from './login/auth.service';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { AppRoutingModule } from './app.routing.module';
     AppRoutingModule,
     // routing
   ],
+  providers: [AuthService],
   // providers: [CursosService],
   bootstrap: [AppComponent]
 })
