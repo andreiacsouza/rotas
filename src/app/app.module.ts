@@ -18,6 +18,7 @@ import { AppRoutingModule } from './app.routing.module';
 // import { AlunosModule } from './alunos/alunos.module';
 import { AuthService } from './login/auth.service';
 import { AuthGuard } from './guards/auth.guard';
+import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { AuthGuard } from './guards/auth.guard';
     AppComponent,
     HomeComponent,
     LoginComponent,
+    PaginaNaoEncontradaComponent,
     // CursosComponent,
     // CursoDetalheComponent,
     // CursoNaoEncontradoComponent
